@@ -2,6 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.contrin.auth.models import User
 # Create your models here.
+# added comment here
 class city(models.Model):
     city_choice=(
     ('DELHI','Delhi'),
@@ -66,7 +67,7 @@ class userdetails(models.Model):
 class paymentdetails(models.Model):
     payment_options=('CreditCard','PayTM')
     timestamp=models.DateTimeField(auto_now=True,auto_now_add=False)
-    
+
 
 
 class theaterseat(models.Model):

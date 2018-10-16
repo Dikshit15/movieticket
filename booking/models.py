@@ -3,6 +3,7 @@ from django.utils import timezone
 from django.contrin.auth.models import User
 # Create your models here.
 # added comment here
+# second comment
 class city(models.Model):
     city_choice=(
     ('DELHI','Delhi'),
